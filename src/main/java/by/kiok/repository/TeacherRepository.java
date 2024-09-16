@@ -2,6 +2,8 @@ package by.kiok.repository;
 
 import by.kiok.common.PositionType;
 import by.kiok.entity.TeacherEntity;
+import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
@@ -9,6 +11,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+@Component
+@NoArgsConstructor
 public class TeacherRepository {
 
     private static final List<TeacherEntity> db = List.of(

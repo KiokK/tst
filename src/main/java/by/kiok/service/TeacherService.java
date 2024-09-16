@@ -6,10 +6,12 @@ import by.kiok.exception.EntityNotFoundException;
 import by.kiok.mapper.TeacherMapper;
 import by.kiok.repository.TeacherRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
 
+@Service
 @AllArgsConstructor
 public class TeacherService {
 
